@@ -23,7 +23,6 @@ public class StartMain {
             e.printStackTrace();
         }
 
-
         client.close();
     }
 }
