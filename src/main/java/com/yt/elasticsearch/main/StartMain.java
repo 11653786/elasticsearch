@@ -1,5 +1,6 @@
 package com.yt.elasticsearch.main;
 
+import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
@@ -19,6 +20,7 @@ public class StartMain {
         try {
             client = new PreBuiltTransportClient(Settings.EMPTY)
                     .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("127.0.0.1"), 9200));
+            GetResponse response = client.prepareGet("blog", "article", "1").execute().actionGet();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }

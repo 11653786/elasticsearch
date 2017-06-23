@@ -1,3 +1,7 @@
-http://blog.csdn.net/yx1214442120/article/details/55102298
-http://blog.csdn.net/qq942477618/article/details/53637817
-https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=windows%20elasticsearch5%20head&oq=windows%2520elasticsearch%25205%2520head&rsv_pq=c76459f000013dc5&rsv_t=50f4adhiSnQYSk2S8yhdWVOlpMZKNwT21Y0waQ0j10PBuEuUXt0QZMr7tyM&rqlang=cn&rsv_enter=1&sug=elasticsearch&inputT=276&rsv_sug3=45&rsv_sug1=28&rsv_sug7=000&rsv_sug2=0&rsv_sug4=492&rsv_sug=1
+elaticsearch详细参数介绍
+http://rockelixir.iteye.com/blog/1883373
+
+5.4集群？
+http://blog.csdn.net/napoay/article/details/52202877
+#5.4 elasticsearch-head安装方法
+http://www.cnblogs.com/valor-xh/p/6293476.html
